@@ -29,7 +29,7 @@ This guide outlines the steps to create and execute a Ad-hoc command on an AWS E
 
   ![5](https://github.com/vivek2431/Ansible/assets/137812531/a4a06f47-4947-41e2-b298-575b54103dc8)
 
-## 4. Ansible command weare going to use are as follows:
+## 4. Ansible Ah-hoc command weare going to use are as follows:
 - To see the list in our `demo` group that we have created is:
 
    `ansible demo -a "ls"`
