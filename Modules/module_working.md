@@ -81,6 +81,39 @@ This guide outlines the steps to create and execute a module command on an AWS E
 
   ![34](https://github.com/vivek2431/Ansible/assets/137812531/dd3fbf2e-6c3b-4527-bbe1-0bbe83f0f498)
 
+- To copy a file from our ansible server to our nodes we use a command:
+
+   `ansible demo -b -m copy -a "src=randomfile dest=/tmp"`
+
+  ![37](https://github.com/vivek2431/Ansible/assets/137812531/40c7a7c0-d29c-48ff-aabe-76ef02a9079a)
+
+  ![38](https://github.com/vivek2431/Ansible/assets/137812531/447e700d-f9c2-4c41-9090-239d26b2d39a)
+
+- To check in our nodes we use command"
+
+   `ls /tmp/`
+
+  ![39](https://github.com/vivek2431/Ansible/assets/137812531/44ba0dfd-8fc5-4d46-b0b1-0c7235bbf631)
+
+  ![40](https://github.com/vivek2431/Ansible/assets/137812531/7359cb8d-97cd-47f9-a134-10a032e8c821)
+ 
+- The `ansible` command with the `setup` module allows you to gather facts about the managed hosts in your inventory. These facts 
+  include details about the host's hardware, operating system, network interfaces, and more.
+
+  ![41](https://github.com/vivek2431/Ansible/assets/137812531/1fb18456-8e59-4408-9120-6964c54b565e)
+
+  ![42](https://github.com/vivek2431/Ansible/assets/137812531/de9d4c87-299d-4731-92c8-ad73c9b263cb).
+
+  ![43](https://github.com/vivek2431/Ansible/assets/137812531/08cc3d98-a46c-4540-b94c-77ff70e99c9f)
+
+
+
+
+
+
+
+
+
 
 
 
