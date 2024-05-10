@@ -14,6 +14,9 @@ This guide outlines the steps to create and execute a Ad-hoc command on an AWS E
 
 - Copy your `public ip` of your ansible server instance and paste it to putty.
 - Use SSH to connect to your EC2 instance. You will need the key pair you created during the instance launch.
+- - ansible server (private ip): 172.31.28.219
+- Node1 (private ip): 172.31.18.184
+- Node2 (private ip): 172.31.18.86
   Example:
 
    ![2](https://github.com/vivek2431/Ansible/assets/137812531/779d4e3b-083e-4a40-ab97-cf67a2fe050b)
